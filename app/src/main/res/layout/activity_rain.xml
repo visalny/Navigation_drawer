@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/raining">
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:30 PM"
+            android:fontFamily="@font/chalkboard_bold"
+            android:textColor="#fff"
+            android:textSize="28dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_settings_black_24dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/rain"/>
+        <TextView
+            android:fontFamily="@font/chalkboard_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phnom Penh"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:layout_below="@+id/rain"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:orientation="vertical"
+        android:background="#80000000">
+        <TextView
+            android:fontFamily="@font/chalkboard_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear Sky"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:fontFamily="@font/chalkboard_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/degree"
+            android:textSize="70dp"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:fontFamily="@font/chalkboard_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thursday,Ausgust 23"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+        <TextView
+            android:fontFamily="@font/chalkboard_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/underline"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="26dp"/>
+</LinearLayout>
