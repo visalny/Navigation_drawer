@@ -3,10 +3,12 @@
 
     <group android:id="@+id/group1">
         <item android:title="List"
+            android:id="@+id/listone"
             android:icon="@drawable/ic_format_list_bulleted_black_24dp"></item>
     </group>
     <group android:id="@+id/group2">
         <item android:title="List Two"
+            android:id="@+id/listtwo"
             android:icon="@drawable/ic_format_list_bulleted_black_24dp"></item>
     </group>
 
